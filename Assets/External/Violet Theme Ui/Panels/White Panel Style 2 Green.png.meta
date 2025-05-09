@@ -129,13 +129,13 @@ TextureImporter:
       name: White Panel Style 2 Green_0
       rect:
         serializedVersion: 2
-        x: 105
+        x: 150
         y: 0
-        width: 1002
+        width: 917
         height: 1115
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 23}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -149,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 936929a79c861614fbfe01ae10dbf599
     internalID: 0
     vertices: []
     indices: 
