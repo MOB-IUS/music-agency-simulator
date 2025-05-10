@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
         
         if (check > (1 - _fundRaisingRate)) // Success in fund raising action
         {
-            _fund += UnityEngine.Random.Range(DataController.Instance.minFundRaised, DataController.Instance.maxFundRaised);
+            _fund += UnityEngine.Random.Range(DataController.Instance.MIN_FUND_RAISED, DataController.Instance.MAX_FUND_RAISED);
             UIController.Instance.UpdateCompanyInfo(_fund, _monthlyRevenue, _fanNum);
         }
     }
